@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "node --stack-size=65500 index.js",
+    "test": "node --stack-size=65500 bots.js"
+  },
+  "dependencies": {
+    "bedrock-protocol": "^3.42.2",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2"
+  },
+  "name": "bedrock-player-fludder",
+  "version": "1.0.0",
+  "main": "threads.js",
+  "description": "Крашнет сервер твоего друга в майнкрафт бедрок ботами.",
+  "author": "Acelotick",
+  "license": "UNLICENSED"
+}
